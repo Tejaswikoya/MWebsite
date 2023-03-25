@@ -32,10 +32,10 @@
               <div class="row justify-content-center">
                 <div class="col-md-10 col-lg-6 col-xl-5 order-2 order-lg-1">
                     <h2>Choose the options and fill the form</h2>
-                    <form>
+                    <form method="post">
                           <div class="form-group">
-                            <label for="exampleFormControlSelect1">City</label>
-                            <select class="form-control" id="exampleFormControlSelect1">
+                            <label for="pres_city_name">pres_city_name</label>
+                            <select class="form-control" id="exampleFormControlSelect1" name="pres_city_name">
                               <option>Mumbai</option>
                               <option>Bangalore</option>
                               <option>Kolkata</option>
@@ -45,19 +45,8 @@
                           </div>
 
                           <div class="form-group">
-                            <label for="exampleFormControlSelect1">Present City</label>
-                            <select class="form-control" id="exampleFormControlSelect1">
-                              <option>Mumbai</option>
-                              <option>Bangalore</option>
-                              <option>Kolkata</option>
-                              <option>Chennai</option>
-                              <option>Delhi</option>
-                            </select>
-                          </div>
-
-                          <div class="form-group">
-                            <label for="exampleFormControlSelect1">Present state</label>
-                            <select class="form-control" id="exampleFormControlSelect1">
+                            <label for="pres_state">pres_state</label>
+                            <select class="form-control" id="exampleFormControlSelect1" name="pres_state">
                               <option>Tamil Nadu</option>
                               <option>Delhi</option>
                               <option>Maharashtra</option>
@@ -67,8 +56,8 @@
                           </div>
 
                           <div class="form-group">
-                            <label for="exampleFormControlSelect1">Percentage</label>
-                            <select class="form-control" id="exampleFormControlSelect1">
+                            <label for="percentage">percentage</label>
+                            <select class="form-control" id="exampleFormControlSelect1" name="percentage">
                               <option>Below 40%</option>
                               <option>40-60%</option>
                               <option>60-80%</option>
@@ -77,16 +66,16 @@
                           </div>
 
                           <div class="form-group">
-                            <label for="exampleFormControlSelect1">Gender</label>
-                            <select class="form-control" id="exampleFormControlSelect1">
+                            <label for="gender">gender</label>
+                            <select class="form-control" id="exampleFormControlSelect1" name="gender">
                               <option>Male</option>
                               <option>Female</option>
                             </select>
                           </div>
 
                           <div class="form-group">
-                            <label for="exampleFormControlSelect1">Training hours per day</label>
-                            <select class="form-control" id="exampleFormControlSelect1">
+                            <label for="training_hours_per_day">training_hours_per_day</label>
+                            <select class="form-control" id="exampleFormControlSelect1" name="training_hours_per_day">
                               <option>3</option>
                               <option>4</option>
                               <option>5</option>
@@ -94,9 +83,21 @@
                             </select>
                           </div>
 
+                          
                           <div class="form-group">
-                            <label for="exampleFormControlSelect1">Course id</label>
-                            <select class="form-control" id="exampleFormControlSelect1">
+                            <label for="course_name">course_name</label>
+                            <select class="form-control" id="exampleFormControlSelect1" name="course_name">
+                              <option>Data Science</option>
+                              <option>App Development</option>
+                              <option>Blockchain</option>
+                              <option>Hardware</option>
+                              <option>MERN Stack</option>
+                            </select>
+                          </div>
+
+                          <div class="form-group">
+                            <label for="course_id">course_id</label>
+                            <select class="form-control" id="exampleFormControlSelect1" name="course_id">
                               <option>1001</option>
                               <option>1002</option>
                               <option>1003</option>
@@ -106,8 +107,8 @@
                           </div>
 
                           <div class="form-group">
-                            <label for="exampleFormControlSelect1">Ojt days</label>
-                            <select class="form-control" id="exampleFormControlSelect1">
+                            <label for="ojt_days">ojt_days</label>
+                            <select class="form-control" id="exampleFormControlSelect1" name="ojt_days">
                               <option>3</option>
                               <option>4</option>
                               <option>5</option>
@@ -115,16 +116,8 @@
                           </div>
 
                           <div class="form-group">
-                            <label for="exampleFormControlSelect1">Completed or not</label>
-                            <select class="form-control" id="exampleFormControlSelect1">
-                              <option>Completed</option>
-                              <option>Not Completed</option>
-                            </select>
-                          </div>
-
-                          <div class="form-group">
-                            <label for="exampleFormControlSelect1">Highest Qualification</label>
-                            <select class="form-control" id="exampleFormControlSelect1">
+                            <label for="highest_qualification">highest_qualification</label>
+                            <select class="form-control" id="exampleFormControlSelect1" name="highest_qualification">
                               <option>10th</option>
                               <option>12th</option>
                               <option>Post Graduate</option>
@@ -133,16 +126,16 @@
                           </div>
 
                           <div class="form-group">
-                            <label for="exampleFormControlSelect1">Certified or not</label>
-                            <select class="form-control" id="exampleFormControlSelect1">
+                            <label for="certified">certified</label>
+                            <select class="form-control" id="exampleFormControlSelect1" name="certified">
                               <option>Certified</option>
                               <option>Not Certified</option>
                             </select>
                           </div>
 
                           <div class="form-group">
-                            <label for="exampleFormControlSelect1">Industry</label>
-                            <select class="form-control" id="exampleFormControlSelect1">
+                            <label for="industry">industry</label>
+                            <select class="form-control" id="exampleFormControlSelect1" name="industry">
                               <option>Finance</option>
                               <option>Retail</option>
                               <option>Consulting</option>
