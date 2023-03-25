@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Form 1</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
+
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+  
+
+  <!-- Font Awesome -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+
+<body>
+<section class="vh-100" style="background-color: #eee;">
+    <div class="container h-100">
+      <div class="row d-flex justify-content-center align-items-center h-100">
+        <div class="col-lg-12 col-xl-11">
+          <!-- <div class="card text-black" style="border-radius: 25px;"> -->
+            <div class="card-body p-md-5">
+              <div class="row justify-content-center">
+                <div class="col-md-10 col-lg-6 col-xl-5 order-2 order-lg-1">
+                    <h2>Choose the options and fill the form</h2>
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleFormControlSelect1">City</label>
+                            <select class="form-control" id="exampleFormControlSelect1">
+                              <option>Mumbai</option>
+                              <option>Bangalore</option>
+                              <option>Kolkata</option>
+                              <option>Chennai</option>
+                              <option>Delhi</option>
+                            </select>
+                          </div>
+
+                          <div class="form-group">
+                            <label for="exampleFormControlSelect1">Final Fee</label>
+                            <select class="form-control" id="exampleFormControlSelect1">
+                              <option>1000-5000</option>
+                              <option>Below 1000</option>
+                              <option>5000-10000</option>
+                            </select>
+                          </div>
+
+                          <div class="form-group">
+                            <label for="exampleFormControlSelect1">Disability types</label>
+                            <select class="form-control" id="exampleFormControlSelect1">
+                              <option>Mental</option>
+                              <option>Eyes</option>
+                              <option>Growth</option>
+                              <option>Ears</option>
+                            </select>
+                          </div>
+
+                          <div class="form-group">
+                            <label for="exampleFormControlSelect1">Family members count</label>
+                            <select class="form-control" id="exampleFormControlSelect1">
+                              <option>2</option>
+                              <option>3</option>
+                              <option>4</option>
+                            </select>
+                          </div>
+
+                          <div class="form-group">
+                            <label for="exampleFormControlSelect1">Working Family members</label>
+                            <select class="form-control" id="exampleFormControlSelect1">
+                              <option>1</option>
+                              <option>2</option>
+                            </select>
+                          </div>
+
+                          <div class="form-group">
+                            <label for="exampleFormControlSelect1">BPL Status</label>
+                            <select class="form-control" id="exampleFormControlSelect1">
+                              <option>Above</option>
+                              <option>Below</option>
+                            </select>
+                          </div>
+
+                          <div class="form-group">
+                            <label for="exampleFormControlSelect1">Highest Qualification</label>
+                            <select class="form-control" id="exampleFormControlSelect1">
+                              <option>10th</option>
+                              <option>12th</option>
+                              <option>Post Graduate</option>
+                              <option>Graduate</option>
+                            </select>
+                          </div>
+                          
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                      </form>
+                </div>
+
+              </div>
+            </div>
+          <!-- </div> -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>
