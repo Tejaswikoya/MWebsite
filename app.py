@@ -3,7 +3,8 @@ import pymongo
 
 app = Flask(__name__)
 
-client = pymongo.MongoClient("mongodb+srv://admin:<password>@cluster0.0uzzzz2.mongodb.net/?retryWrites=true&w=majority")
+client = pymongo.MongoClient("mongodb+srv://admin:admin123@cluster0.0uzzzz2.mongodb.net/?retryWrites=true&w=majority")
+db=client['mydb']
 
 @app.route("/")
 def hello_world():
@@ -17,7 +18,16 @@ def login():
 def loginStudent():
    if request.method == 'POST':
       print(request.form)
-      return ""
+      credentials={
+         "email":request.form['email'],
+         "password":request.form['psw']
+      }
+      coll=db['students']
+      x=coll.find_one(credentials)
+      if(x):
+         return render_template('student.html',name=request.form['email'])
+      else:
+         return render_template('login1.html')
    else:
         return render_template('login1.html')
 
@@ -25,8 +35,15 @@ def loginStudent():
 def signupStudent():
    if request.method == 'POST':
       print(request.form)
-
-      return ""
+      newUser={
+         "email":request.form['email'],
+         "password":request.form['psw'],
+         "gender":request.form['gender'],
+         "college":request.form['college']
+      }
+      coll=db['students']
+      coll.insert_one(newUser)
+      return render_template('student.html',name=request.form['email'])
    else:
         return render_template('signup.html')
 
