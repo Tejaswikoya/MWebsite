@@ -1,5 +1,6 @@
 from flask import Flask, render_template, request
 import pymongo
+import pickle
 
 app = Flask(__name__)
 
@@ -54,6 +55,28 @@ def loginAdmin():
       return ""
    else:
         return render_template('login2.html')
+
+@app.route('/student/form1',methods=['GET','POST'])
+def form1():
+   if request.method=='POST':
+      print(request.form)
+      return ""
+   else:
+      return render_template('form1.html')
+
+@app.route('/student/form2',methods=['GET','POST'])
+def form2():
+   if request.method=='POST':
+      return ""
+   else:
+      return render_template('form2.html')
+
+@app.route('/student/form3',methods=['GET','POST'])
+def form3():
+   if request.method=='POST':
+      return ""
+   else:
+      return render_template('form3.html')
 
 
 

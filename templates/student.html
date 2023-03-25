@@ -2,149 +2,173 @@
 <html>
 
 <head>
-  <meta charset="utf-8">
-  <title>Student signup</title>
+    <meta charset="utf-8">
+    <title>Student signup</title>
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
 
-  <!-- CSS Stylesheets -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
-  
+    <!-- CSS Stylesheets -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
 
-  <!-- Font Awesome -->
-  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
 
-  <!-- Bootstrap Scripts -->
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!-- Font Awesome -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+    <!-- Bootstrap Scripts -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
 </head>
 <!-- some CSS styling changes and overrides -->
 <style>
     .split {
-  height: 100%;
-  width: 50%;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  overflow-x: hidden;
-  padding-top: 20px;
-}
+        height: 100%;
+        width: 50%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        overflow-x: hidden;
+        padding-top: 20px;
+    }
 
-/* Control the left side */
-.left {
-  left: 0;
-}
+    /* Control the left side */
+    .left {
+        left: 0;
+    }
 
-.right {
-  right: 0;
+    .right {
+        right: 0;
 
-}
+    }
 
-body{
-    background-color: #66BFBF;
-}
+    body {
+        background-color: #66BFBF;
+    }
 
-button{
-    background-color: #22577A;
-    color: #FFFFFF;
+    button {
+        background-color: #22577A;
+        color: #FFFFFF;
 
-}
+    }
 
-/*Profile Pic Start*/
-.picture-container{
-    position: relative;
-    cursor: pointer;
-    text-align: center;
-}
-.picture{
-    width: 106px;
-    height: 106px;
-    background-color: #999999;
-    border: 4px solid #CCCCCC;
-    color: #FFFFFF;
-    border-radius: 50%;
-    margin: 0px auto;
-    overflow: hidden;
-    transition: all 0.2s;
-    -webkit-transition: all 0.2s;
-}
-.picture:hover{
-    border-color: #2ca8ff;
-}
-.content.ct-wizard-green .picture:hover{
-    border-color: #05ae0e;
-}
-.content.ct-wizard-blue .picture:hover{
-    border-color: #3472f7;
-}
-.content.ct-wizard-orange .picture:hover{
-    border-color: #ff9500;
-}
-.content.ct-wizard-red .picture:hover{
-    border-color: #ff3b30;
-}
-.picture input[type="file"] {
-    cursor: pointer;
-    display: block;
-    height: 100%;
-    left: 0;
-    opacity: 0 !important;
-    position: absolute;
-    top: 0;
-    width: 100%;
-}
+    /*Profile Pic Start*/
+    .picture-container {
+        position: relative;
+        cursor: pointer;
+        text-align: center;
+    }
 
-.picture-src{
-    width: 100%;
-    
-}
-    </style>
-     <body>
-        <div class="split left">
+    .picture {
+        width: 106px;
+        height: 106px;
+        background-color: #999999;
+        border: 4px solid #CCCCCC;
+        color: #FFFFFF;
+        border-radius: 50%;
+        margin: 0px auto;
+        overflow: hidden;
+        transition: all 0.2s;
+        -webkit-transition: all 0.2s;
+    }
+
+    .picture:hover {
+        border-color: #2ca8ff;
+    }
+
+    .content.ct-wizard-green .picture:hover {
+        border-color: #05ae0e;
+    }
+
+    .content.ct-wizard-blue .picture:hover {
+        border-color: #3472f7;
+    }
+
+    .content.ct-wizard-orange .picture:hover {
+        border-color: #ff9500;
+    }
+
+    .content.ct-wizard-red .picture:hover {
+        border-color: #ff3b30;
+    }
+
+    .picture input[type="file"] {
+        cursor: pointer;
+        display: block;
+        height: 100%;
+        left: 0;
+        opacity: 0 !important;
+        position: absolute;
+        top: 0;
+        width: 100%;
+    }
+
+    .picture-src {
+        width: 100%;
+
+    }
+</style>
+
+<body>
+    <div class="split left">
         <div class="container" style=" margin-top: 100px; margin-right: 200%;">
             <div class="picture-container">
                 <div class="picture">
-                    <img src="https://lh3.googleusercontent.com/LfmMVU71g-HKXTCP_QWlDOemmWg4Dn1rJjxeEsZKMNaQprgunDTtEuzmcwUBgupKQVTuP0vczT9bH32ywaF7h68mF-osUSBAeM6MxyhvJhG6HKZMTYjgEv3WkWCfLB7czfODidNQPdja99HMb4qhCY1uFS8X0OQOVGeuhdHy8ln7eyr-6MnkCcy64wl6S_S6ep9j7aJIIopZ9wxk7Iqm-gFjmBtg6KJVkBD0IA6BnS-XlIVpbqL5LYi62elCrbDgiaD6Oe8uluucbYeL1i9kgr4c1b_NBSNe6zFwj7vrju4Zdbax-GPHmiuirf2h86eKdRl7A5h8PXGrCDNIYMID-J7_KuHKqaM-I7W5yI00QDpG9x5q5xOQMgCy1bbu3St1paqt9KHrvNS_SCx-QJgBTOIWW6T0DHVlvV_9YF5UZpN7aV5a79xvN1Gdrc7spvSs82v6gta8AJHCgzNSWQw5QUR8EN_-cTPF6S-vifLa2KtRdRAV7q-CQvhMrbBCaEYY73bQcPZFd9XE7HIbHXwXYA=s200-no" class="picture-src" id="wizardPicturePreview" title="">
+                    <img src="https://lh3.googleusercontent.com/LfmMVU71g-HKXTCP_QWlDOemmWg4Dn1rJjxeEsZKMNaQprgunDTtEuzmcwUBgupKQVTuP0vczT9bH32ywaF7h68mF-osUSBAeM6MxyhvJhG6HKZMTYjgEv3WkWCfLB7czfODidNQPdja99HMb4qhCY1uFS8X0OQOVGeuhdHy8ln7eyr-6MnkCcy64wl6S_S6ep9j7aJIIopZ9wxk7Iqm-gFjmBtg6KJVkBD0IA6BnS-XlIVpbqL5LYi62elCrbDgiaD6Oe8uluucbYeL1i9kgr4c1b_NBSNe6zFwj7vrju4Zdbax-GPHmiuirf2h86eKdRl7A5h8PXGrCDNIYMID-J7_KuHKqaM-I7W5yI00QDpG9x5q5xOQMgCy1bbu3St1paqt9KHrvNS_SCx-QJgBTOIWW6T0DHVlvV_9YF5UZpN7aV5a79xvN1Gdrc7spvSs82v6gta8AJHCgzNSWQw5QUR8EN_-cTPF6S-vifLa2KtRdRAV7q-CQvhMrbBCaEYY73bQcPZFd9XE7HIbHXwXYA=s200-no"
+                        class="picture-src" id="wizardPicturePreview" title="">
                     <input type="file" id="wizard-picture" class="">
                 </div>
-                 <h6 class="">Choose Picture</h6>
-                 <br>
-                 <br>
-                 <h6>{{name}}</h6>
+                <h6 class="">Choose Picture</h6>
+                <br>
+                <br>
+                <h6>{{name}}</h6>
             </div>
         </div>
         <div class="split right" style="margin-top: 100px;">
             <h3>Fill the below forms: </h3>
             <br>
-            <button type="button" style="padding-left: 200px; padding-right: 200px; padding-top: 10px; padding-bottom: 10px;">Form 1</button><br> <br>
-            <button type="button" style="padding-left: 200px; padding-right: 200px; padding-top: 10px; padding-bottom: 10px;">Form 2</button><br> <br>
-            <button type="button" style="padding-left: 200px; padding-right: 200px; padding-top: 10px; padding-bottom: 10px;">Form 3</button><br> <br>
-            <button type="button" style="padding-left: 200px; padding-right: 200px; padding-top: 10px; padding-bottom: 10px;">Form 4</button><br> <br>
+            <a type="button" style="padding-left: 200px; padding-right: 200px; padding-top: 10px; padding-bottom: 10px;"
+                href="/student/form1">Form 1</a><br>
+            <br>
+            <a type="button" style="padding-left: 200px; padding-right: 200px; padding-top: 10px; padding-bottom: 10px;"
+                href="/student/form2">Form
+                2</a><br> <br>
+            <a type="button" style="padding-left: 200px; padding-right: 200px; padding-top: 10px; padding-bottom: 10px;"
+                href="/student/form3">Form
+                3</a><br> <br>
+            <a type="button" style="padding-left: 200px; padding-right: 200px; padding-top: 10px; padding-bottom: 10px;"
+                href="/student/form4">Form
+                4</a><br> <br>
         </div>
 
     </div>
 </body>
-    <!-- the fileinput plugin initialization -->
-    <script>
-        $(document).ready(function(){
-// Prepare the preview for profile picture
-    $("#wizard-picture").change(function(){
-        readURL(this);
+<!-- the fileinput plugin initialization -->
+<script>
+    $(document).ready(function () {
+        // Prepare the preview for profile picture
+        $("#wizard-picture").change(function () {
+            readURL(this);
+        });
     });
-});
-function readURL(input) {
-    if (input.files && input.files[0]) {
-        var reader = new FileReader();
+    function readURL(input) {
+        if (input.files && input.files[0]) {
+            var reader = new FileReader();
 
-        reader.onload = function (e) {
-            $('#wizardPicturePreview').attr('src', e.target.result).fadeIn('slow');
+            reader.onload = function (e) {
+                $('#wizardPicturePreview').attr('src', e.target.result).fadeIn('slow');
+            }
+            reader.readAsDataURL(input.files[0]);
         }
-        reader.readAsDataURL(input.files[0]);
     }
-}
-    </script>
+</script>
 
 </html>

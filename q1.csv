@@ -1,0 +1,101 @@
+,student_engagement_status,final_fee,city,disability_types,family_members_cnt,working_family_members,bpl_status,highest_qualification
+0,Enrolled,1000-5000,Mumbai,Mental,4.0,2.0,Below,10th
+1,Enrolled,1000-5000,Bangalore,Mental,3.0,2.0,Above,Graduate
+2,Not enrolled,Below 1000,Kolkata,Eyes,3.0,1.0,Below,12th
+3,Enrolled,5000-10000,Chennai,Mental,4.0,2.0,Below,12th
+4,Not enrolled,5000-10000,Kolkata,Mental,2.0,2.0,Below,Post Graduate
+5,Not enrolled,5000-10000,Kolkata,Growth,2.0,2.0,Below,10th
+6,Enrolled,5000-10000,Delhi,Mental,3.0,1.0,Below,10th
+7,Enrolled,5000-10000,Delhi,Eyes,4.0,2.0,Above,Post Graduate
+8,Enrolled,Below 1000,Chennai,Growth,3.0,2.0,Above,10th
+9,Enrolled,1000-5000,Chennai,Ears,2.0,1.0,Below,10th
+10,Not enrolled,1000-5000,Chennai,Growth,2.0,2.0,Above,Post Graduate
+11,Not enrolled,1000-5000,Kolkata,Growth,4.0,2.0,Below,12th
+12,Not enrolled,1000-5000,Delhi,Ears,2.0,1.0,Below,Post Graduate
+13,Not enrolled,Below 1000,Kolkata,Growth,4.0,2.0,Above,12th
+14,Enrolled,1000-5000,Bangalore,Growth,4.0,1.0,Above,10th
+15,Not enrolled,1000-5000,Delhi,Growth,2.0,2.0,Below,10th
+16,Not enrolled,5000-10000,Bangalore,Ears,3.0,1.0,Above,Post Graduate
+17,Enrolled,1000-5000,Mumbai,Ears,2.0,1.0,Below,Graduate
+18,Enrolled,5000-10000,Bangalore,Ears,2.0,2.0,Below,Graduate
+19,Not enrolled,1000-5000,Mumbai,Eyes,2.0,1.0,Below,Post Graduate
+20,Not enrolled,5000-10000,Chennai,Growth,2.0,1.0,Above,12th
+21,Enrolled,5000-10000,Delhi,Mental,4.0,2.0,Below,Post Graduate
+22,Enrolled,1000-5000,Mumbai,Mental,2.0,2.0,Above,Post Graduate
+23,Not enrolled,Below 1000,Mumbai,Ears,2.0,2.0,Above,10th
+24,Enrolled,Below 1000,Kolkata,Eyes,3.0,2.0,Above,Graduate
+25,Enrolled,1000-5000,Delhi,Mental,2.0,1.0,Below,12th
+26,Enrolled,5000-10000,Kolkata,Growth,4.0,2.0,Above,Graduate
+27,Not enrolled,1000-5000,Chennai,Growth,4.0,1.0,Below,Post Graduate
+28,Enrolled,Below 1000,Mumbai,Ears,4.0,2.0,Below,Post Graduate
+29,Not enrolled,Below 1000,Delhi,Eyes,3.0,1.0,Below,10th
+30,Enrolled,Below 1000,Chennai,Eyes,2.0,2.0,Below,12th
+31,Not enrolled,1000-5000,Bangalore,Mental,4.0,2.0,Below,Post Graduate
+32,Enrolled,Below 1000,Kolkata,Eyes,3.0,1.0,Above,10th
+33,Enrolled,5000-10000,Bangalore,Growth,3.0,2.0,Below,12th
+34,Enrolled,Below 1000,Kolkata,Eyes,4.0,2.0,Above,Graduate
+35,Enrolled,1000-5000,Delhi,Growth,3.0,2.0,Above,12th
+36,Enrolled,1000-5000,Chennai,Eyes,3.0,1.0,Above,Post Graduate
+37,Not enrolled,1000-5000,Bangalore,Mental,2.0,2.0,Below,Post Graduate
+38,Enrolled,5000-10000,Kolkata,Growth,3.0,2.0,Below,10th
+39,Enrolled,Below 1000,Bangalore,Eyes,2.0,1.0,Above,12th
+40,Not enrolled,Below 1000,Bangalore,Eyes,3.0,2.0,Above,Post Graduate
+41,Not enrolled,1000-5000,Bangalore,Ears,4.0,1.0,Below,10th
+42,Not enrolled,5000-10000,Delhi,Growth,4.0,2.0,Above,12th
+43,Not enrolled,1000-5000,Chennai,Eyes,4.0,2.0,Above,12th
+44,Enrolled,5000-10000,Delhi,Mental,2.0,2.0,Below,Graduate
+45,Enrolled,Below 1000,Bangalore,Ears,3.0,1.0,Above,Graduate
+46,Enrolled,1000-5000,Delhi,Growth,4.0,1.0,Below,Post Graduate
+47,Not enrolled,Below 1000,Mumbai,Growth,3.0,2.0,Above,12th
+48,Enrolled,Below 1000,Bangalore,Ears,2.0,1.0,Below,10th
+49,Not enrolled,Below 1000,Delhi,Growth,4.0,1.0,Below,10th
+50,Not enrolled,Below 1000,Chennai,Growth,3.0,1.0,Above,Graduate
+51,Not enrolled,Below 1000,Kolkata,Ears,2.0,1.0,Above,12th
+52,Enrolled,1000-5000,Delhi,Ears,4.0,1.0,Below,Graduate
+53,Enrolled,Below 1000,Bangalore,Eyes,2.0,2.0,Below,Post Graduate
+54,Not enrolled,5000-10000,Chennai,Ears,2.0,1.0,Below,Post Graduate
+55,Enrolled,Below 1000,Mumbai,Ears,2.0,2.0,Below,10th
+56,Enrolled,1000-5000,Mumbai,Mental,4.0,2.0,Above,Post Graduate
+57,Enrolled,Below 1000,Bangalore,Growth,3.0,2.0,Below,Post Graduate
+58,Not enrolled,1000-5000,Chennai,Mental,4.0,2.0,Below,10th
+59,Enrolled,Below 1000,Delhi,Growth,3.0,1.0,Below,Post Graduate
+60,Enrolled,1000-5000,Delhi,Ears,4.0,2.0,Below,Post Graduate
+61,Not enrolled,Below 1000,Kolkata,Eyes,2.0,1.0,Below,Graduate
+62,Not enrolled,Below 1000,Bangalore,Growth,3.0,2.0,Above,10th
+63,Enrolled,Below 1000,Kolkata,Mental,2.0,1.0,Above,10th
+64,Enrolled,Below 1000,Delhi,Ears,3.0,2.0,Below,Graduate
+65,Enrolled,5000-10000,Chennai,Mental,3.0,2.0,Above,10th
+66,Enrolled,Below 1000,Chennai,Mental,4.0,1.0,Below,Post Graduate
+67,Not enrolled,1000-5000,Delhi,Ears,4.0,2.0,Below,Graduate
+68,Not enrolled,5000-10000,Bangalore,Growth,2.0,1.0,Above,Post Graduate
+69,Enrolled,5000-10000,Kolkata,Growth,2.0,2.0,Above,Post Graduate
+70,Enrolled,5000-10000,Kolkata,Growth,3.0,1.0,Above,Post Graduate
+71,Not enrolled,1000-5000,Bangalore,Eyes,2.0,2.0,Above,Post Graduate
+72,Not enrolled,Below 1000,Kolkata,Eyes,3.0,2.0,Above,10th
+73,Enrolled,Below 1000,Bangalore,Eyes,2.0,1.0,Above,Graduate
+74,Not enrolled,Below 1000,Kolkata,Growth,4.0,2.0,Above,Graduate
+75,Not enrolled,5000-10000,Kolkata,Eyes,2.0,1.0,Below,Graduate
+76,Not enrolled,Below 1000,Chennai,Mental,4.0,2.0,Above,Graduate
+77,Not enrolled,Below 1000,Chennai,Mental,2.0,1.0,Above,Graduate
+78,Not enrolled,Below 1000,Chennai,Mental,3.0,1.0,Below,10th
+79,Not enrolled,1000-5000,Mumbai,Ears,3.0,1.0,Above,10th
+80,Not enrolled,5000-10000,Bangalore,Eyes,2.0,2.0,Below,Graduate
+81,Enrolled,1000-5000,Mumbai,Growth,4.0,1.0,Above,10th
+82,Not enrolled,1000-5000,Kolkata,Growth,4.0,2.0,Above,Graduate
+83,Not enrolled,1000-5000,Kolkata,Growth,2.0,2.0,Below,10th
+84,Enrolled,Below 1000,Mumbai,Ears,3.0,2.0,Above,Post Graduate
+85,Not enrolled,5000-10000,Delhi,Growth,3.0,2.0,Below,12th
+86,Not enrolled,5000-10000,Kolkata,Mental,3.0,2.0,Below,12th
+87,Enrolled,5000-10000,Bangalore,Eyes,4.0,1.0,Above,Graduate
+88,Enrolled,5000-10000,Bangalore,Eyes,3.0,1.0,Above,Post Graduate
+89,Not enrolled,Below 1000,Kolkata,Growth,2.0,2.0,Above,Graduate
+90,Not enrolled,Below 1000,Kolkata,Eyes,3.0,2.0,Above,Graduate
+91,Not enrolled,1000-5000,Chennai,Ears,2.0,1.0,Above,10th
+92,Not enrolled,1000-5000,Delhi,Mental,3.0,1.0,Below,Graduate
+93,Not enrolled,1000-5000,Kolkata,Mental,4.0,1.0,Below,Graduate
+94,Not enrolled,1000-5000,Kolkata,Mental,2.0,2.0,Above,Post Graduate
+95,Enrolled,1000-5000,Mumbai,Ears,4.0,1.0,Above,12th
+96,Enrolled,Below 1000,Mumbai,Ears,3.0,1.0,Below,Post Graduate
+97,Not enrolled,Below 1000,Kolkata,Eyes,4.0,1.0,Below,10th
+98,Enrolled,1000-5000,Mumbai,Eyes,4.0,1.0,Above,Graduate
+99,Enrolled,5000-10000,Delhi,Growth,4.0,2.0,Above,10th

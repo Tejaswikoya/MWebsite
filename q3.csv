@@ -1,0 +1,101 @@
+,city,pres_city_name,pres_state,percentage,gender,training_hours_per_day,course_name,course_id,ojt_days,completed,highest_qualification,certified,industry,NameofEmployer
+0,Kolkata,Chennai,Tamil Nadu,60-80%,Female,6,Data Science,1004,5,Not Completed,12th,Not Certified,Finance,JP Morgan
+1,Kolkata,Delhi,Delhi,Above 80%,Female,6,App Development,1003,4,Completed,Post Graduate,Certified,Retail,Reliance
+2,Kolkata,Delhi,Delhi,40-60%,Male,5,Data Science,1005,3,Not Completed,12th,Certified,Retail,Reliance
+3,Delhi,Delhi,Delhi,60-80%,Male,3,App Development,1004,5,Not Completed,Post Graduate,Not Certified,Consulting,Deloitte
+4,Chennai,Mumbai,Maharashtra,60-80%,Male,5,Data Science,1001,4,Not Completed,Post Graduate,Not Certified,Audit,PWC
+5,Mumbai,Bangalore,Karnataka,Above 80%,Male,4,Blockchain,1002,4,Not Completed,12th,Not Certified,Finance,JP Morgan
+6,Kolkata,Mumbai,Maharashtra,Above 80%,Female,6,Hardware,1003,5,Completed,Post Graduate,Not Certified,Finance,JP Morgan
+7,Bangalore,Chennai,Tamil Nadu,Above 80%,Male,6,MERN Stack,1002,3,Not Completed,Post Graduate,Certified,Finance,JP Morgan
+8,Mumbai,Delhi,Delhi,Below 40%,Male,3,App Development,1002,5,Not Completed,10th,Not Certified,Finance,JP Morgan
+9,Chennai,Bangalore,Karnataka,Below 40%,Male,4,App Development,1004,4,Completed,10th,Not Certified,Retail,Reliance
+10,Kolkata,Chennai,Tamil Nadu,40-60%,Female,6,MERN Stack,1005,4,Completed,Post Graduate,Certified,Finance,JP Morgan
+11,Mumbai,Bangalore,Karnataka,Above 80%,Male,5,Data Science,1004,5,Not Completed,Post Graduate,Certified,Finance,JP Morgan
+12,Mumbai,Kolkata,West Bengal,Below 40%,Female,6,Hardware,1004,4,Completed,12th,Certified,Consulting,Deloitte
+13,Delhi,Delhi,Delhi,Below 40%,Female,3,Hardware,1003,5,Completed,12th,Certified,Consulting,Deloitte
+14,Kolkata,Chennai,Tamil Nadu,60-80%,Male,4,Blockchain,1005,3,Completed,Graduate,Not Certified,Audit,PWC
+15,Mumbai,Delhi,Delhi,Above 80%,Male,4,Data Science,1005,4,Not Completed,Graduate,Not Certified,Retail,Reliance
+16,Bangalore,Delhi,Delhi,Below 40%,Male,4,MERN Stack,1003,5,Completed,12th,Certified,Audit,PWC
+17,Delhi,Mumbai,Maharashtra,Below 40%,Female,3,App Development,1003,5,Completed,12th,Not Certified,Consulting,Deloitte
+18,Kolkata,Chennai,Tamil Nadu,Above 80%,Female,6,App Development,1003,3,Not Completed,10th,Certified,Audit,PWC
+19,Kolkata,Kolkata,West Bengal,Below 40%,Female,3,App Development,1003,5,Not Completed,Graduate,Certified,Consulting,Deloitte
+20,Mumbai,Delhi,Delhi,60-80%,Female,3,Data Science,1002,5,Not Completed,12th,Certified,Retail,Reliance
+21,Delhi,Mumbai,Maharashtra,Below 40%,Male,3,MERN Stack,1004,3,Completed,12th,Certified,Consulting,Deloitte
+22,Delhi,Delhi,Delhi,40-60%,Female,4,Data Science,1002,5,Not Completed,10th,Certified,Finance,JP Morgan
+23,Bangalore,Chennai,Tamil Nadu,Below 40%,Female,3,App Development,1004,3,Not Completed,12th,Certified,Audit,PWC
+24,Kolkata,Mumbai,Maharashtra,40-60%,Male,4,Data Science,1001,3,Not Completed,12th,Certified,Audit,PWC
+25,Bangalore,Mumbai,Maharashtra,Above 80%,Male,5,Data Science,1001,3,Not Completed,Graduate,Certified,Finance,JP Morgan
+26,Mumbai,Delhi,Delhi,Below 40%,Male,6,App Development,1004,5,Not Completed,12th,Not Certified,Consulting,Deloitte
+27,Bangalore,Delhi,Delhi,40-60%,Female,3,Hardware,1003,4,Not Completed,Post Graduate,Not Certified,Audit,PWC
+28,Bangalore,Bangalore,Karnataka,Above 80%,Female,5,MERN Stack,1004,3,Completed,Graduate,Certified,Finance,JP Morgan
+29,Bangalore,Bangalore,Karnataka,60-80%,Female,4,Data Science,1001,5,Completed,10th,Certified,Retail,Reliance
+30,Delhi,Chennai,Tamil Nadu,Above 80%,Female,4,Data Science,1003,3,Not Completed,Graduate,Not Certified,Audit,PWC
+31,Delhi,Delhi,Delhi,Above 80%,Male,3,Data Science,1003,5,Not Completed,Post Graduate,Not Certified,Retail,Reliance
+32,Delhi,Bangalore,Karnataka,60-80%,Female,4,Data Science,1003,4,Not Completed,Graduate,Certified,Finance,JP Morgan
+33,Chennai,Kolkata,West Bengal,Above 80%,Female,3,Blockchain,1001,4,Completed,12th,Not Certified,Consulting,Deloitte
+34,Delhi,Bangalore,Karnataka,Below 40%,Female,4,Data Science,1004,5,Completed,Post Graduate,Certified,Finance,JP Morgan
+35,Kolkata,Mumbai,Maharashtra,40-60%,Female,4,MERN Stack,1003,5,Completed,10th,Not Certified,Retail,Reliance
+36,Kolkata,Bangalore,Karnataka,Below 40%,Male,6,Data Science,1001,4,Completed,Post Graduate,Certified,Consulting,Deloitte
+37,Bangalore,Mumbai,Maharashtra,Below 40%,Female,3,Data Science,1004,3,Not Completed,10th,Certified,Audit,PWC
+38,Kolkata,Bangalore,Karnataka,Below 40%,Male,3,Data Science,1005,5,Completed,Graduate,Certified,Audit,PWC
+39,Kolkata,Chennai,Tamil Nadu,60-80%,Female,4,Hardware,1002,3,Not Completed,Post Graduate,Certified,Consulting,Deloitte
+40,Kolkata,Bangalore,Karnataka,60-80%,Male,6,Hardware,1004,4,Completed,12th,Certified,Consulting,Deloitte
+41,Delhi,Mumbai,Maharashtra,60-80%,Female,6,Hardware,1005,5,Not Completed,Graduate,Certified,Consulting,Deloitte
+42,Chennai,Kolkata,West Bengal,Below 40%,Female,6,MERN Stack,1002,3,Not Completed,Post Graduate,Certified,Retail,Reliance
+43,Chennai,Mumbai,Maharashtra,40-60%,Female,6,Blockchain,1001,5,Not Completed,Post Graduate,Certified,Audit,PWC
+44,Delhi,Chennai,Tamil Nadu,40-60%,Female,5,Blockchain,1002,3,Not Completed,Post Graduate,Not Certified,Finance,JP Morgan
+45,Kolkata,Bangalore,Karnataka,60-80%,Male,6,MERN Stack,1005,3,Not Completed,10th,Not Certified,Retail,Reliance
+46,Mumbai,Delhi,Delhi,60-80%,Male,5,Blockchain,1001,5,Not Completed,12th,Certified,Consulting,Deloitte
+47,Mumbai,Kolkata,West Bengal,40-60%,Male,6,MERN Stack,1003,3,Not Completed,Post Graduate,Certified,Retail,Reliance
+48,Mumbai,Delhi,Delhi,40-60%,Male,4,Blockchain,1002,3,Completed,Graduate,Not Certified,Consulting,Deloitte
+49,Kolkata,Mumbai,Maharashtra,60-80%,Female,6,Blockchain,1001,4,Not Completed,10th,Certified,Retail,Reliance
+50,Chennai,Delhi,Delhi,60-80%,Male,4,Data Science,1003,5,Not Completed,12th,Certified,Finance,JP Morgan
+51,Chennai,Kolkata,West Bengal,Above 80%,Male,3,Blockchain,1003,3,Completed,12th,Certified,Consulting,Deloitte
+52,Mumbai,Delhi,Delhi,Above 80%,Female,6,Hardware,1003,4,Completed,Graduate,Certified,Retail,Reliance
+53,Kolkata,Bangalore,Karnataka,Below 40%,Female,5,Blockchain,1004,4,Completed,10th,Certified,Finance,JP Morgan
+54,Kolkata,Mumbai,Maharashtra,Below 40%,Female,3,Blockchain,1002,4,Completed,12th,Not Certified,Consulting,Deloitte
+55,Mumbai,Bangalore,Karnataka,60-80%,Male,6,Blockchain,1002,3,Completed,10th,Not Certified,Retail,Reliance
+56,Chennai,Kolkata,West Bengal,60-80%,Female,3,Data Science,1005,4,Not Completed,Graduate,Not Certified,Audit,PWC
+57,Bangalore,Mumbai,Maharashtra,60-80%,Female,5,App Development,1003,3,Completed,12th,Certified,Retail,Reliance
+58,Kolkata,Kolkata,West Bengal,60-80%,Male,6,App Development,1005,4,Not Completed,12th,Not Certified,Retail,Reliance
+59,Chennai,Mumbai,Maharashtra,Above 80%,Male,6,Blockchain,1001,5,Completed,Graduate,Certified,Retail,Reliance
+60,Mumbai,Delhi,Delhi,Above 80%,Female,6,Hardware,1003,3,Completed,12th,Certified,Audit,PWC
+61,Kolkata,Bangalore,Karnataka,Below 40%,Male,4,Hardware,1003,5,Completed,12th,Not Certified,Retail,Reliance
+62,Delhi,Bangalore,Karnataka,40-60%,Male,3,App Development,1004,4,Not Completed,Post Graduate,Not Certified,Finance,JP Morgan
+63,Mumbai,Mumbai,Maharashtra,40-60%,Male,5,Data Science,1002,4,Completed,Graduate,Not Certified,Consulting,Deloitte
+64,Delhi,Kolkata,West Bengal,60-80%,Male,3,Blockchain,1005,3,Completed,Post Graduate,Not Certified,Finance,JP Morgan
+65,Delhi,Mumbai,Maharashtra,Below 40%,Male,5,Hardware,1001,5,Not Completed,Post Graduate,Not Certified,Audit,PWC
+66,Mumbai,Delhi,Delhi,40-60%,Female,6,MERN Stack,1001,5,Not Completed,10th,Not Certified,Retail,Reliance
+67,Mumbai,Mumbai,Maharashtra,Above 80%,Male,4,App Development,1004,5,Completed,Graduate,Not Certified,Audit,PWC
+68,Kolkata,Chennai,Tamil Nadu,60-80%,Female,6,App Development,1002,4,Not Completed,12th,Certified,Finance,JP Morgan
+69,Delhi,Delhi,Delhi,Above 80%,Female,5,App Development,1001,3,Completed,Graduate,Not Certified,Retail,Reliance
+70,Bangalore,Kolkata,West Bengal,60-80%,Male,5,Blockchain,1002,5,Not Completed,12th,Not Certified,Finance,JP Morgan
+71,Mumbai,Mumbai,Maharashtra,60-80%,Male,5,Hardware,1003,4,Completed,10th,Certified,Consulting,Deloitte
+72,Kolkata,Chennai,Tamil Nadu,60-80%,Female,5,Data Science,1002,3,Completed,12th,Certified,Audit,PWC
+73,Delhi,Chennai,Tamil Nadu,60-80%,Male,5,MERN Stack,1003,4,Not Completed,Post Graduate,Certified,Finance,JP Morgan
+74,Kolkata,Chennai,Tamil Nadu,Below 40%,Female,4,Blockchain,1001,4,Completed,Graduate,Certified,Retail,Reliance
+75,Kolkata,Chennai,Tamil Nadu,Above 80%,Female,4,Data Science,1004,5,Completed,12th,Not Certified,Retail,Reliance
+76,Mumbai,Bangalore,Karnataka,40-60%,Female,5,Blockchain,1001,4,Not Completed,10th,Not Certified,Retail,Reliance
+77,Mumbai,Bangalore,Karnataka,Below 40%,Male,6,MERN Stack,1004,5,Completed,Post Graduate,Not Certified,Finance,JP Morgan
+78,Kolkata,Bangalore,Karnataka,Above 80%,Male,5,Blockchain,1005,5,Completed,12th,Not Certified,Consulting,Deloitte
+79,Delhi,Delhi,Delhi,Below 40%,Male,5,Blockchain,1002,3,Completed,Graduate,Certified,Retail,Reliance
+80,Chennai,Mumbai,Maharashtra,60-80%,Male,6,App Development,1004,4,Completed,Post Graduate,Not Certified,Retail,Reliance
+81,Kolkata,Mumbai,Maharashtra,Above 80%,Male,3,App Development,1005,5,Not Completed,10th,Not Certified,Finance,JP Morgan
+82,Bangalore,Delhi,Delhi,Below 40%,Female,3,App Development,1004,5,Not Completed,Graduate,Certified,Finance,JP Morgan
+83,Delhi,Bangalore,Karnataka,60-80%,Male,3,Blockchain,1002,4,Completed,12th,Not Certified,Finance,JP Morgan
+84,Delhi,Mumbai,Maharashtra,60-80%,Male,4,Hardware,1004,4,Completed,12th,Certified,Audit,PWC
+85,Bangalore,Mumbai,Maharashtra,60-80%,Male,6,Data Science,1004,5,Completed,10th,Certified,Finance,JP Morgan
+86,Delhi,Kolkata,West Bengal,60-80%,Male,4,Data Science,1004,5,Completed,10th,Certified,Finance,JP Morgan
+87,Mumbai,Delhi,Delhi,60-80%,Male,4,Hardware,1002,5,Completed,Graduate,Certified,Finance,JP Morgan
+88,Kolkata,Kolkata,West Bengal,Below 40%,Male,3,Hardware,1001,5,Completed,10th,Not Certified,Retail,Reliance
+89,Mumbai,Delhi,Delhi,Below 40%,Male,6,Hardware,1001,4,Not Completed,12th,Not Certified,Consulting,Deloitte
+90,Bangalore,Kolkata,West Bengal,40-60%,Female,5,App Development,1005,3,Completed,Graduate,Certified,Consulting,Deloitte
+91,Kolkata,Kolkata,West Bengal,Below 40%,Male,4,Hardware,1004,5,Not Completed,Post Graduate,Certified,Retail,Reliance
+92,Bangalore,Bangalore,Karnataka,60-80%,Male,5,MERN Stack,1005,3,Not Completed,Post Graduate,Certified,Consulting,Deloitte
+93,Bangalore,Delhi,Delhi,60-80%,Female,5,MERN Stack,1003,3,Not Completed,12th,Not Certified,Retail,Reliance
+94,Mumbai,Mumbai,Maharashtra,40-60%,Female,5,App Development,1002,3,Completed,Graduate,Certified,Finance,JP Morgan
+95,Delhi,Delhi,Delhi,60-80%,Male,6,Data Science,1004,4,Not Completed,Post Graduate,Not Certified,Retail,Reliance
+96,Chennai,Mumbai,Maharashtra,Below 40%,Male,3,Hardware,1002,3,Completed,12th,Not Certified,Retail,Reliance
+97,Mumbai,Delhi,Delhi,60-80%,Male,3,Blockchain,1003,3,Not Completed,Graduate,Certified,Consulting,Deloitte
+98,Kolkata,Mumbai,Maharashtra,60-80%,Female,3,Data Science,1002,4,Completed,10th,Certified,Consulting,Deloitte
+99,Bangalore,Bangalore,Karnataka,40-60%,Female,3,MERN Stack,1001,4,Not Completed,10th,Certified,Finance,JP Morgan
