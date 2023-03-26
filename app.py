@@ -1,6 +1,7 @@
 from flask import Flask, render_template, request
 import pymongo
 import pickle
+import ML
 
 app = Flask(__name__)
 
@@ -59,29 +60,44 @@ def loginAdmin():
 @app.route('/student/form1',methods=['GET','POST'])
 def form1():
    if request.method=='POST':
-      print(request.form)
-      return ""
+      inputs={}
+      for i in request.form:
+         inputs[i]=request.form[i]
+      pred=ML.pred1(inputs)
+      return str(pred)
    else:
       return render_template('form1.html')
 
 @app.route('/student/form2',methods=['GET','POST'])
 def form2():
    if request.method=='POST':
-      return ""
+      inputs={}
+      for i in request.form:
+         inputs[i]=request.form[i]
+      pred=ML.pred2(inputs)
+      return str(pred)
    else:
       return render_template('form2.html')
 
 @app.route('/student/form3',methods=['GET','POST'])
 def form3():
    if request.method=='POST':
-      return ""
+      inputs={}
+      for i in request.form:
+         inputs[i]=request.form[i]
+      pred=ML.pred3(inputs)
+      return str(pred)
    else:
       return render_template('form3.html')
 
 @app.route('/student/form4',methods=['GET','POST'])
-def form3():
+def form4():
    if request.method=='POST':
-      return ""
+      inputs={}
+      for i in request.form:
+         inputs[i]=request.form[i]
+      pred=ML.pred4(inputs)
+      return str(pred)
    else:
       return render_template('form4.html')
 
