@@ -78,6 +78,12 @@ def form3():
    else:
       return render_template('form3.html')
 
+@app.route('/student/form4',methods=['GET','POST'])
+def form3():
+   if request.method=='POST':
+      return ""
+   else:
+      return render_template('form4.html')
 
 
 if __name__ == "__main__":
