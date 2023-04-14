@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Form 4</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
+
+    <!-- CSS Stylesheets -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+
+
+    <!-- Font Awesome -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+    <!-- Bootstrap Scripts -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section class="vh-100" style="background-color: #eee;">
+        <div class="container h-100">
+            <div class="row d-flex justify-content-center align-items-center h-100">
+                <div class="col-lg-12 col-xl-11">
+                    <!-- <div class="card text-black" style="border-radius: 25px;"> -->
+                    <div class="card-body p-md-5">
+                        <div class="row justify-content-center">
+                            <div class="col-md-10 col-lg-6 col-xl-5 order-2 order-lg-1">
+                                <h2>Choose the options and fill the form</h2>
+                                <form method="post">
+                                    <div class="form-group">
+                                        <label for="BusinessTravel">BusinessTravel</label>
+                                        <select class="form-control" id="exampleFormControlSelect1"
+                                            name="BusinessTravel">
+                                            <option>Non-Travel</option>
+                                            <option>Travel_Frequently</option>
+                                            <option>Travel_Rarely</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="Education">Education</label>
+                                        <select class="form-control" id="exampleFormControlSelect1" name="Education">
+                                            <option>1</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                            <option>4</option>
+                                            <option>5</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="EducationField">EducationField</label>
+                                        <select class="form-control" id="exampleFormControlSelect1"
+                                            name="EducationField">
+                                            <option>Human Resources</option>
+                                            <option>Life Sciences</option>
+                                            <option>Marketing</option>
+                                            <option>Medical</option>
+                                            <option>Other</option>
+                                            <option>Technical Degree</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="Gender">Gender</label>
+                                        <select class="form-control" id="exampleFormControlSelect1" name="Gender">
+                                            <option>Male</option>
+                                            <option>Female</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="JobLevel">JobLevel</label>
+                                        <select class="form-control" id="exampleFormControlSelect1" name="JobLevel">
+                                            <option>1</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                        </select>
+                                    </div>
+
+
+                                    <div class="form-group">
+                                        <label for="MaritalStatus">MaritalStatus</label>
+                                        <select class="form-control" id="exampleFormControlSelect1"
+                                            name="MaritalStatus">
+                                            <option>Divorced</option>
+                                            <option>Married</option>
+                                            <option>Single</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="OverTime">OverTime</label>
+                                        <select class="form-control" id="exampleFormControlSelect1" name="OverTime">
+                                            <option>0</option>
+                                            <option>1</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="StockOptionLevel">StockOptionLevel</label>
+                                        <select class="form-control" id="exampleFormControlSelect1"
+                                            name="StockOptionLevel">
+                                            <option>0</option>
+                                            <option>1</option>
+                                        </select>
+                                    </div>
+
+
+                                    <div class="form-group">
+                                        <label for="TrainingTimesLastYear">TrainingTimesLastYear</label>
+                                        <select class="form-control" id="exampleFormControlSelect1"
+                                            name="TrainingTimesLastYear">
+                                            <option>0</option>
+                                            <option>1</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                            <option>4</option>
+                                            <option>5</option>
+                                            <option>6</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="Total_Satisfaction_bool">satisfaction greater than 2.8</label>
+                                        <select class="form-control" id="exampleFormControlSelect1"
+                                            name="Total_Satisfaction_bool">
+                                            <option>1</option>
+                                            <option>0</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="Age_bool">Age less than 35</label>
+                                        <select class="form-control" id="exampleFormControlSelect1" name="Age_bool">
+                                            <option>1</option>
+                                            <option>0</option>
+                                        </select>
+                                    </div>
+
+
+                                    <div class="form-group">
+                                        <label for="DailyRate_bool">Daily rate less than 800</label>
+                                        <select class="form-control" id="exampleFormControlSelect1"
+                                            name="DailyRate_bool">
+                                            <option>1</option>
+                                            <option>0</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="Department_bool">Is department Research and development?</label>
+                                        <select class="form-control" id="exampleFormControlSelect1"
+                                            name="Department_bool">
+                                            <option>1</option>
+                                            <option>0</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="DistanceFromHome_bool">Is distance from home greater than
+                                            10km</label>
+                                        <select class="form-control" id="exampleFormControlSelect1"
+                                            name="DistanceFromHome_bool">
+                                            <option>1</option>
+                                            <option>0</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="JobRole_bool">Is the role a Laboratory Technician?</label>
+                                        <select class="form-control" id="exampleFormControlSelect1" name="JobRole_bool">
+                                            <option>1</option>
+                                            <option>0</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="MonthlyIncome_bool">Is monthly income less than 4000</label>
+                                        <select class="form-control" id="exampleFormControlSelect1"
+                                            name="MonthlyIncome_bool">
+                                            <option>1</option>
+                                            <option>0</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="TotalWorkingYears_bool">is experience less than 8 years</label>
+                                        <select class="form-control" id="exampleFormControlSelect1"
+                                            name="TotalWorkingYears_bool">
+                                            <option>1</option>
+                                            <option>0</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="YearsAtCompany_bool">did he/she work in the company for less than 3
+                                            years</label>
+                                        <select class="form-control" id="exampleFormControlSelect1"
+                                            name="YearsAtCompany_bool">
+                                            <option>1</option>
+                                            <option>0</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="YearsInCurrentRole_bool">did he/she work in the current role for
+                                            less than 3 years</label>
+                                        <select class="form-control" id="exampleFormControlSelect1"
+                                            name="YearsInCurrentRole_bool">
+                                            <option>1</option>
+                                            <option>0</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="YearsSinceLastPromotion_bool">Was he/she promoted in the last 1
+                                            year?</label>
+                                        <select class="form-control" id="exampleFormControlSelect1"
+                                            name="YearsSinceLastPromotion_bool">
+                                            <option>1</option>
+                                            <option>0</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="YearsWithCurrManager_bool">How many years did he/she work with the
+                                            current manager</label>
+                                        <select class="form-control" id="exampleFormControlSelect1"
+                                            name="YearsWithCurrManager_bool">
+                                            <option>1</option>
+                                            <option>0</option>
+                                        </select>
+                                    </div>
+
+                                    <button type="submit" class="btn btn-primary">Submit</button>
+                                </form>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- </div> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>

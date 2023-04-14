@@ -58,3 +58,16 @@ def pred3(values):
     pred=y[pred]
     return pred
 
+def pred4(values):
+    df=pd.DataFrame(values,index=[0])
+    fields=os.listdir('./classes4/')
+    for column in df.columns:
+        if column+'.npy' in fields:
+            path='./classes4/'+column+'.npy'
+            classes=np.load(path,allow_pickle=True)
+            encoder.classes_=classes
+            df[column]=encoder.transform(df[column])
+    model=joblib.load('case4.joblib')
+    pred=model.predict(df)
+    return pred
+
