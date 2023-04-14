@@ -28,9 +28,9 @@
         <div class="row">
             <div class="col">Can he/she cannot take skill development program</div>
             <div class="col">
-                {% if f1 == 0 or f1 == 0.0 %}
+                {% if f1 in ["0", "0.0"] %}
                 No
-                {% elif f2 == 1 or f2 == 1.0 %}
+                {% elif f1 in ["1", "1.0"] %}
                 Yes
                 {% else %}
                 {{f1}}
@@ -42,9 +42,9 @@
 
             <div class="col">Will he/she will be able to complete this skill development program</div>
             <div class="col">
-                {% if f2 == 0 or f2 == 0.0 %}
+                {% if f2 in ["0", "0.0"] %}
                 No
-                {% elif f2 == 1 or f2 == 1.0 %}
+                {% elif f2 in ["1", "1.0"] %}
                 Yes
                 {% else %}
                 {{f2}}
@@ -63,9 +63,9 @@
 
             <div class="col">Will he/she will be able to sustain the employment</div>
             <div class="col">
-                {% if f4 == 0 or f4 == 0.0 %}
+                {% if f4 in ["0", "0.0"] %}
                 No
-                {% elif f4 == 1.0 or f4 == 1 %}
+                {% elif f4 in ["1", "1.0"] %}
                 Yes
                 {% else %}
                 {{ f4 }}
