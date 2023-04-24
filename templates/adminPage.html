@@ -23,14 +23,18 @@
             <thead>
                 <tr>
                     <th scope="col">#</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">College</th>
                     <th scope="col">Email</th>
                     <th scope="col">Link</th>
                 </tr>
             </thead>
-            {% for email in emails %}
+            {% for email,college,name in data %}
             <tbody>
                 <tr>
                     <th scope="row">{{ loop.index }}</th>
+                    <td>{{ name }}</td>
+                    <td>{{ college }}</td>
                     <td>{{ email }}</td>
                     <td>
                         <a class="btn btn-outline-light" href="/admin?email={{email}}">View</a><br>

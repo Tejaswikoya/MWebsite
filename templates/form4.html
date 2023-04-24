@@ -38,10 +38,10 @@
                     <div class="card-body p-md-5">
                         <div class="row justify-content-center">
                             <div class="col-md-10 col-lg-6 col-xl-5 order-2 order-lg-1">
-                                <h2>Choose the options and fill the form</h2>
+                                <h2>Choose the options and fill the form - Can he/she sustain the employment?</h2>
                                 <form method="post">
                                     <div class="form-group">
-                                        <label for="BusinessTravel">BusinessTravel</label>
+                                        <label for="BusinessTravel">Do you do Business Travel?</label>
                                         <select class="form-control" id="exampleFormControlSelect1"
                                             name="BusinessTravel">
                                             <option>Non-Travel</option>
@@ -62,7 +62,7 @@
                                     </div>
 
                                     <div class="form-group">
-                                        <label for="EducationField">EducationField</label>
+                                        <label for="EducationField">Education Field</label>
                                         <select class="form-control" id="exampleFormControlSelect1"
                                             name="EducationField">
                                             <option>Human Resources</option>
@@ -83,8 +83,9 @@
                                     </div>
 
                                     <div class="form-group">
-                                        <label for="JobLevel">JobLevel</label>
+                                        <label for="JobLevel">Job Level</label>
                                         <select class="form-control" id="exampleFormControlSelect1" name="JobLevel">
+                                            <option>0</option>
                                             <option>1</option>
                                             <option>2</option>
                                             <option>3</option>
@@ -93,7 +94,7 @@
 
 
                                     <div class="form-group">
-                                        <label for="MaritalStatus">MaritalStatus</label>
+                                        <label for="MaritalStatus">Marital Status</label>
                                         <select class="form-control" id="exampleFormControlSelect1"
                                             name="MaritalStatus">
                                             <option>Divorced</option>
@@ -105,8 +106,8 @@
                                     <div class="form-group">
                                         <label for="OverTime">OverTime</label>
                                         <select class="form-control" id="exampleFormControlSelect1" name="OverTime">
-                                            <option>0</option>
-                                            <option>1</option>
+                                            <option value=0>No</option>
+                                            <option value=1>Yes</option>
                                         </select>
                                     </div>
 
@@ -114,8 +115,8 @@
                                         <label for="StockOptionLevel">StockOptionLevel</label>
                                         <select class="form-control" id="exampleFormControlSelect1"
                                             name="StockOptionLevel">
-                                            <option>0</option>
-                                            <option>1</option>
+                                            <option value=0>No</option>
+                                            <option value=1>Yes</option>
                                         </select>
                                     </div>
 
@@ -138,16 +139,16 @@
                                         <label for="Total_Satisfaction_bool">satisfaction greater than 2.8</label>
                                         <select class="form-control" id="exampleFormControlSelect1"
                                             name="Total_Satisfaction_bool">
-                                            <option>1</option>
-                                            <option>0</option>
+                                            <option value=1>yes</option>
+                                            <option value=0>no</option>
                                         </select>
                                     </div>
 
                                     <div class="form-group">
                                         <label for="Age_bool">Age less than 35</label>
                                         <select class="form-control" id="exampleFormControlSelect1" name="Age_bool">
-                                            <option>1</option>
-                                            <option>0</option>
+                                            <option value=1>yes</option>
+                                            <option value=0>No</option>
                                         </select>
                                     </div>
 
@@ -156,8 +157,8 @@
                                         <label for="DailyRate_bool">Daily rate less than 800</label>
                                         <select class="form-control" id="exampleFormControlSelect1"
                                             name="DailyRate_bool">
-                                            <option>1</option>
-                                            <option>0</option>
+                                            <option value=1>Yes</option>
+                                            <option value=0>No</option>
                                         </select>
                                     </div>
 
@@ -165,8 +166,8 @@
                                         <label for="Department_bool">Is department Research and development?</label>
                                         <select class="form-control" id="exampleFormControlSelect1"
                                             name="Department_bool">
-                                            <option>1</option>
-                                            <option>0</option>
+                                            <option value=1>Yes</option>
+                                            <option value=0>No</option>
                                         </select>
                                     </div>
 
@@ -175,16 +176,16 @@
                                             10km</label>
                                         <select class="form-control" id="exampleFormControlSelect1"
                                             name="DistanceFromHome_bool">
-                                            <option>1</option>
-                                            <option>0</option>
+                                            <option value=1>Yes</option>
+                                            <option value=0>No</option>
                                         </select>
                                     </div>
 
                                     <div class="form-group">
                                         <label for="JobRole_bool">Is the role a Laboratory Technician?</label>
                                         <select class="form-control" id="exampleFormControlSelect1" name="JobRole_bool">
-                                            <option>1</option>
-                                            <option>0</option>
+                                            <option value=1>Yes</option>
+                                            <option value=0>No</option>
                                         </select>
                                     </div>
 
@@ -192,8 +193,8 @@
                                         <label for="MonthlyIncome_bool">Is monthly income less than 4000</label>
                                         <select class="form-control" id="exampleFormControlSelect1"
                                             name="MonthlyIncome_bool">
-                                            <option>1</option>
-                                            <option>0</option>
+                                            <option value=1>Yes</option>
+                                            <option value=0>No</option>
                                         </select>
                                     </div>
 
@@ -201,28 +202,28 @@
                                         <label for="TotalWorkingYears_bool">is experience less than 8 years</label>
                                         <select class="form-control" id="exampleFormControlSelect1"
                                             name="TotalWorkingYears_bool">
-                                            <option>1</option>
-                                            <option>0</option>
+                                            <option value=1>Yes</option>
+                                            <option value=0>No</option>
                                         </select>
                                     </div>
 
                                     <div class="form-group">
-                                        <label for="YearsAtCompany_bool">did he/she work in the company for less than 3
+                                        <label for="YearsAtCompany_bool">Did he/she work in the company for less than 3
                                             years</label>
                                         <select class="form-control" id="exampleFormControlSelect1"
                                             name="YearsAtCompany_bool">
-                                            <option>1</option>
-                                            <option>0</option>
+                                            <option value=1>Yes</option>
+                                            <option value=0>No</option>
                                         </select>
                                     </div>
 
                                     <div class="form-group">
-                                        <label for="YearsInCurrentRole_bool">did he/she work in the current role for
+                                        <label for="YearsInCurrentRole_bool">Did he/she work in the current role for
                                             less than 3 years</label>
                                         <select class="form-control" id="exampleFormControlSelect1"
                                             name="YearsInCurrentRole_bool">
-                                            <option>1</option>
-                                            <option>0</option>
+                                            <option value=1>Yes</option>
+                                            <option value=0>No</option>
                                         </select>
                                     </div>
 
@@ -231,8 +232,8 @@
                                             year?</label>
                                         <select class="form-control" id="exampleFormControlSelect1"
                                             name="YearsSinceLastPromotion_bool">
-                                            <option>1</option>
-                                            <option>0</option>
+                                            <option value=1>Yes</option>
+                                            <option value=0>No</option>
                                         </select>
                                     </div>
 
@@ -241,8 +242,8 @@
                                             current manager</label>
                                         <select class="form-control" id="exampleFormControlSelect1"
                                             name="YearsWithCurrManager_bool">
-                                            <option>1</option>
-                                            <option>0</option>
+                                            <option value=1>Yes</option>
+                                            <option value=0>No</option>
                                         </select>
                                     </div>
 

@@ -63,9 +63,9 @@
 
             <div class="col">Will he/she will be able to sustain the employment?</div>
             <div class="col">
-                {% if f4 in ["0", "0.0"] %}
+                {% if "0" in f4 %}
                 No
-                {% elif f4 in ["1", "1.0"] %}
+                {% elif "1" in f4 %}
                 Yes
                 {% else %}
                 {{ f4 }}

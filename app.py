@@ -31,7 +31,7 @@ def loginStudent():
       if(x):
          global currentUser
          currentUser=x['email']
-         return render_template('student.html',name=request.form['email'])
+         return render_template('student.html',email=x['email'],name=(str(x['first_name']+" "+str(x['last_name']))),college=x['college'])
       else:
          return render_template('login1.html')
    else:
@@ -49,10 +49,13 @@ def signupStudent():
          "email":request.form['email'],
          "password":request.form['psw'],
          "gender":request.form['gender'],
-         "college":request.form['college']
+         "college":request.form['college'],
+         "first_name":request.form['first_name'],
+         "last_name":request.form['last_name']
       }
       coll=db['students']
       coll.insert_one(newUser)
+      currentUser=request.form['email']
       return render_template('student.html',name=request.form['email'])
    else:
         return render_template('signup.html')
@@ -62,10 +65,14 @@ def loginAdmin():
    if request.method == 'POST':
       coll=db['students']
       res=coll.find()
-      emails=[]
+      data=[]
       for temp in res:
-         emails.append(temp['email'])
-      return render_template('adminPage.html',emails=emails)
+         tempData=[]
+         tempData.append(temp['email'])
+         tempData.append(temp['college'])
+         tempData.append(str(temp['first_name'])+str(temp['last_name']))
+         data.append(tempData)
+      return render_template('adminPage.html',data=data)
    else:
         return render_template('login2.html')
 
@@ -153,6 +160,7 @@ def form4():
       update={"$set":{"form4":str(pred)}}
       coll=db['students']
       coll.update_one(query,update)
+      print(request.form)
       return render_template('submission.html')
    else:
       return render_template('form4.html')
