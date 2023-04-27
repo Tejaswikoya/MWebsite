@@ -13,6 +13,10 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <style>
+        body {
+            margin: 30px;
+        }
+
         .col {
             text-align: center;
             padding: 8px 16px;
@@ -22,58 +26,90 @@
 </head>
 
 <body>
-    <h1 class="text-center my-4">Users Page</h1>
-    <h4 class="text-center my-4">Results</h4>
-    <div class="container" style="width: 650px;">
-        <div class="row">
-            <div class="col">Can he/she cannot take skill development program?</div>
-            <div class="col">
-                {% if f1 in ["0", "0.0"] %}
-                No
-                {% elif f1 in ["1", "1.0"] %}
-                Yes
-                {% else %}
-                {{f1}}
-                {% endif %}
+    <h1 class="text-center my-4">User Information</h1>
+    <div class="row py-3">
+        <div class="col-xl-6 col-md-4 col-sm-12">
+            <div class="d-flex align-items-center justify-content-center">
+                <img class="title-image" src="{{ url_for('static', filename='images/results.png') }}" alt="login"
+                    height="500px" width="500px">
             </div>
         </div>
-        <div class="w-100"></div>
-        <div class="row">
-
-            <div class="col">Will he/she will be able to complete this skill development program?</div>
-            <div class="col">
-                {% if f2 in ["0", "0.0"] %}
-                No
-                {% elif f2 in ["1", "1.0"] %}
-                Yes
-                {% else %}
-                {{f2}}
-                {% endif %}
-
+        <div class="col-xl-6 col-md-8 col-sm-12">
+            <div class="flex align-items-center mb-2">
+                <span class="fw-bolder">Name:</span> <span style="text-transform: capitalize;"> {{data.first_name}}
+                    {{data.last_name}} </span>
             </div>
-        </div>
-        <div class="w-100"></div>
-        <div class="row">
-
-            <div class="col">Which employer is appropriate to him/her?</div>
-            <div class="col">{{f3}}</div>
-        </div>
-        <div class="w-100"></div>
-        <div class="row">
-
-            <div class="col">Will he/she will be able to sustain the employment?</div>
-            <div class="col">
-                {% if "0" in f4 %}
-                No
-                {% elif "1" in f4 %}
-                Yes
-                {% else %}
-                {{ f4 }}
-                {% endif %}
+            <div class="flex align-items-center mb-2">
+                <span class="fw-bolder">Email:</span> <span>{{data.email}}</span>
             </div>
-        </div>
-        <div class="w-100"></div>
+            <div class="flex align-items-center mb-4">
+                <span class="fw-bolder">Gender:</span> <span style="text-transform: capitalize;">{{data.gender}}</span>
+            </div>
+            <h4 class="my-2 text-success">Results</h4>
+            <div>
+                <div class="row py-3">
+                    <div class="fw-normal lh-lg"><span class="fw-bolder">Q1)</span> Can he/she cannot take skill
+                        development program?</div>
+                    <div class="fw-normal lh-lg">
+                        <span class="fw-bolder">Result: </span>
+                        {% if f1 in ["0", "0.0"] %}
+                        No
+                        {% elif f1 in ["1", "1.0"] %}
+                        Yes
+                        {% else %}
+                        {{f1}}
+                        {% endif %}
+                    </div>
+                </div>
+                <div class="w-100"></div>
+                <div class="row py-3">
 
+                    <div class="fw-normal lh-lg"><span class="fw-bolder">Q2)</span> Will he/she will be able to complete
+                        this skill development program?
+                    </div>
+                    <div class="fw-normal lh-lg">
+                        <span class="fw-bolder">Result: </span>
+                        {% if f2 in ["0", "0.0"] %}
+                        No
+                        {% elif f2 in ["1", "1.0"] %}
+                        Yes
+                        {% else %}
+                        {{f2}}
+                        {% endif %}
+                    </div>
+
+                </div>
+            </div>
+            <div class="w-100"></div>
+            <div class="row py-3">
+                <div class="fw-normal lh-lg"><span class="fw-bolder">Q3)</span> Which employer is appropriate to
+                    him/her?</div>
+                <div class="fw-normal lh-lg">
+                    <span class="fw-bolder">Result: </span>
+                    {{f3}}
+                </div>
+            </div>
+            <div class="w-100"></div>
+            <div class="row py-3">
+
+                <div class="fw-normal lh-lg"><span class="fw-bolder">Q4)</span> Will he/she will be able to sustain the
+                    employment?</div>
+                <div class="fw-normal lh-lg">
+                    <span class="fw-bolder">Result: </span>
+                    {% if "0" in f4 %}
+                    No
+                    {% elif "1" in f4 %}
+                    Yes
+                    {% else %}
+                    {{ f4 }}
+                    {% endif %}
+                </div>
+            </div>
+            <div class="w-100"></div>
+
+        </div>
+
+    </div>
     </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
