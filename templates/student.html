@@ -141,42 +141,45 @@
         <div class="container mt-5"
             style="display: flex;flex-direction: column;justify-content: center;align-items: center;">
             <div class="d-flex justify-content-center">
-                <div class="border border-2 bg-secondary text-white rounded-circle d-flex flex-column justify-content-center align-items-center"
+                <div class="border border-2 bg-info text-white rounded-circle d-flex flex-column justify-content-center align-items-center"
                     style="width: 200px;height: 200px;">
                     <i class="fas fa-user fa-5x"></i>
                 </div>
             </div>
             <br>
+            <p class="text-center fw-bolder fs-4 mb-1">Profile Details</p>
             <div class="text-left mx-5">
                 <br>
-                <h6>{{name}}</h6>
-                <h6>{{college}}</h6>
-                <h6>{{email}}</h6>
+                <p class="fw-bolder mb-1">Name</p>
+                <h6 class="mb-4">{{name}}</h6>
+                <p class="fw-bolder mb-1">Email</p>
+                <h6 class="mb-4">{{email}}</h6>
+                <p class="fw-bolder mb-1">College</p>
+                <h6 class="mb-4">{{college}}</h6>
                 <br>
-
-                <p><span class="fw-bolder">Form 1:</span> Can he/she take up the skill development program?</p>
-                <br>
-                <p><span class="fw-bolder">Form 2:</span> Can he/she complete the skilling program?</p>
-                <br>
-                <p><span class="fw-bolder">Form 3:</span> Which employer is suitable for him or her?</p>
-                <br>
-                <p><span class="fw-bolder">Form 4:</span> Can he/she sustain the employment?</p>
             </div>
+            <a class="text-center btn btn-primary" href="/admin?email={{email}}">View your results</a>
         </div>
     </div>
     <div class="split right mt-5">
         <div class="d-flex flex-column justify-content-center align-items-center">
             <h3>Fill the below forms: </h3>
             <br>
-            <a type="button" class="button" href="/student/form1">Form1</a><br> <br>
-            <a type="button" class="button" href="/student/form2">Form2</a><br> <br>
-            <a type="button" class="button" href="/student/form3">Form3</a><br> <br>
-            <a type="button" class="button" href="/student/form4">Form4</a><br> <br>
+            <div class="d-flex flex-column  align-items-start">
+                <p><span class="fw-bolder">Form 1:</span> Can he/she take up the skill development program?</p>
+                <a type="button" class="btn btn-outline-success" href="/student/form1">Fill form</a><br> <br>
+                <p><span class="fw-bolder">Form 2:</span> Can he/she complete the skilling program?</p>
+                <a type="button" class="btn btn-outline-success" href="/student/form2">Fill form</a><br> <br>
+                <p><span class="fw-bolder">Form 3:</span> Which employer is suitable for him or her?</p>
+                <a type="button" class="btn btn-outline-success" href="/student/form3">Fill form</a><br> <br>
+                <p><span class="fw-bolder">Form 4:</span> Can he/she sustain the employment?</p>
+                <a type="button" class="btn btn-outline-success" href="/student/form4">Fill form</a><br> <br>
+            </div>
 
             <!-- <a type="button" class="button"style="padding-left: 180px; padding-right: 220px; padding-top: 10px; padding-bottom: 10px;"
                     href="/student/form4">Logout</a><br> <br> -->
             <a style="padding-left: 50px; padding-right: 50px; padding-top: 10px; padding-bottom: 10px;"
-                class="btn btn-primary" href="/login">Logout</a>
+                class="btn btn-danger" href="/login">Logout</a>
         </div>
     </div>
 
